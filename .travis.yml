@@ -4,6 +4,12 @@ notifications:
   email: false
 env:
   - RELEASE_TAG="release-$TRAVIS_BUILD_NUMBER"
+  - CF_API_URL="apps.evans.pal.pivotal.io"
+  - CF_ORG="erik-warren"
+  - CF_USERNAME="ewarre17@ford.com"
+  - CF_PASSWORD="pp9gdjk5"
+  - GITHUB_USERNAME="arockkk12345"
+  - GITHUB_OAUTH_TOKEN="43460be3fc9818a67f373751778a5704b2c49f83"
 if: tag IS blank
 
 
