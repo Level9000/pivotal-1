@@ -1,14 +1,13 @@
 package io.pivotal.pal.tracker;
 
-import org.springframework.beans.factory.annotation.Autowired;
+
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class InMemoryTimeEntryRepository implements TimeEntryRepository{
 
-   // @Autowired
-   // private TimeEntryRepository timeEntryRepository;
 
     ArrayList<TimeEntry> timeEntries = new ArrayList<>();
 
