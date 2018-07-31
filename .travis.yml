@@ -27,7 +27,7 @@ jobs:
       deploy:
         provider: releases
         api_key: $GITHUB_OAUTH_TOKEN
-        file: "build/libs/pal-tracker.jar"
+        file: "build/libs/pal-tracker.jar" 
         skip_cleanup: true
     - stage: deploy to review
       language: bash
